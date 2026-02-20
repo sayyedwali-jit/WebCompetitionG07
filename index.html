@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jamia Institute of Technology – Computer Engineering</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<style>
+
+</style>
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header id="navbar">
+    <div class="nav-inner">
+      <div class="logo">
+        <span class="logo-icon" ><img src="jit-logo1.png" alt="College logo"></span>
+        <div>
+          <strong >JIT</strong>
+          <small>Computer Engineering Dept.</small>
+        </div>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#my-college" class="nav-link">My College</a>
+        <a href="#about-me" class="nav-link">About Me</a>
+        <a href="#department" class="nav-link">Department</a>
+        <a href="#technical-competition" class="nav-link">Technical Competition</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HOME ===== -->
+    <section id="home">
+      <div class="hero-text">
+        <p class="hero-sub">Welcome to Computer Department</p>
+        <h1>Jamia Institute<br>of Technology</h1>
+        <p class="hero-desc">Shaping innovative engineers for tomorrow's world through excellence in computer science education.</p>
+        <a href="#department" class="btn-primary">Explore Department</a>
+      </div>
+
+      <!-- Carousel -->
+      <div class="carousel-wrapper">
+        <div class="carousel" id="carousel">
+          <div class="slide active">
+            <!-- <img src="https://placehold.co/700x420/1a3a5c/ffffff?text=Campus+Life" alt="Campus Life" /> -->
+             <img src="img01.jpeg" alt="Campus Life" />
+            <div class="slide-caption">Computer Lab</div>
+          </div>
+          <div class="slide">
+            <!-- <img src="https://placehold.co/700x420/0f2340/e8d5b7?text=Tech+Lab" alt="Tech Lab" /> -->
+            <img src="img02.jpeg" alt="Campus Life" />
+            <div class="slide-caption">State-of-the-Art Labs</div>
+          </div>
+          <div class="slide">
+            <img src="img03.jpeg" alt="Campus Life" />
+            <!-- <img src="https://placehold.co/700x420/c8a96e/1a3a5c?text=Graduation" alt="Graduation" /> -->
+            <div class="slide-caption">Expert lecture</div>
+          </div>
+          <div class="slide">
+            <img src="Even4.jpeg" alt="Events" />
+            <div class="slide-caption">Web Tech Fest</div>
+          </div>
+        </div>
+        <button class="carousel-btn prev" id="prevBtn" aria-label="Previous"><i class="fa fa-chevron-left"></i></button>
+        <button class="carousel-btn next" id="nextBtn" aria-label="Next"><i class="fa fa-chevron-right"></i></button>
+        <div class="carousel-dots" id="carouselDots"></div>
+      </div>
+    </section>
+
+    <!-- ===== MY COLLEGE ===== -->
+    <section id="my-college">
+      <div class="section-header">
+        <span class="section-tag">Our Institution</span>
+        <h2>My College</h2>
+      </div>
+      <div class="college-grid">
+        <div class="college-info">
+          <h3>Jamia Institute of Technology</h3>
+          <p>Jamia Institute of Technology is a premier engineering institution committed to providing quality technical education. Established with a vision to nurture skilled professionals, JIT has consistently produced graduates who excel in industry and academia alike.</p>
+          <p>Our institution fosters a culture of innovation, research, and practical learning, equipping students with both technical expertise and professional values.</p>
+          <div class="stats-row">
+            <div class="stat-box"><span>25+</span><small>Years</small></div>
+            <div class="stat-box"><span>4</span><small>Departments</small></div>
+            <div class="stat-box"><span>2000+</span><small>Alumni</small></div>
+            <div class="stat-box"><span>80%</span><small>Placement</small></div>
+          </div>
+        </div>
+        <div class="college-img">
+          <img src="College.png" alt="College Building" />
+          <!-- <img src="https://placehold.co/520x360/1a3a5c/e8d5b7?text=College+Building" alt="College Building" /> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ME ===== -->
+    <section id="about-me">
+      <div class="about-bg"></div>
+      <div class="about-content">
+        <div class="about-avatar">
+          <img src="Wali.jpeg" alt="Profile Photo" />
+          <!-- <h1 class="myName" > Sayyed Waliullah</h1> -->
+          <h3 class="profile-name">Sayyed Waliullah</h3>
+        </div>
+        <div class="about-text">
+          <span class="section-tag">About Me</span>
+          <h2>Passionate Educator &amp; Programmer</h2>
+          <p class="about-quote">"A passionate programmer and lecturer at Jamia Institute of Technology, Computer Engineering Department."</p>
+          <p>With a deep love for coding and teaching, I strive to bridge the gap between theoretical knowledge and real-world application. My goal is to inspire the next generation of engineers to think creatively and solve meaningful problems.</p>
+          <div class="skills-row">
+             <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <!-- <span class="skill-tag">Database</span> -->
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Web Dev</span>
+          
+          </div>
+        </div>
+      
+      </div>
+    </section>
+
+    <!-- ===== DEPARTMENT ===== -->
+    <section id="department">
+      <div class="section-header">
+        <span class="section-tag">Computer Engineering</span>
+        <h2>Our Department</h2>
+      </div>
+
+      <!-- Aim / Vision / Mission -->
+      <div class="dept-mission-grid">
+        <div class="mission-card">
+          <div class="mission-icon"><i class="fas fa-bullseye"></i></div>
+          <h4>Aim</h4>
+          <p>To impart quality education in Computer Engineering, fostering innovation and producing competent professionals who contribute to society and industry.</p>
+        </div>
+        <div class="mission-card">
+          <div class="mission-icon"><i class="fas fa-eye"></i></div>
+          <h4>Vision</h4>
+          <p>To be a centre of excellence in Computer Engineering education, research, and innovation, producing globally competent engineers.</p>
+        </div>
+        <div class="mission-card">
+          <div class="mission-icon"><i class="fas fa-flag"></i></div>
+          <h4>Mission</h4>
+          <p>To provide a learner-centric environment, encouraging research, industry collaboration, and ethical practices in technology development.</p>
+        </div>
+      </div>
+
+      <!-- Strength of Students -->
+      <div class="strength-section">
+        <h3>Student Strength</h3>
+        <div class="strength-grid">
+          <div class="strength-card">
+            <span class="year-label">FY</span>
+            <span class="strength-num">54</span>
+            <small>First Year</small>
+          </div>
+          <div class="strength-card">
+            <span class="year-label">SY</span>
+            <span class="strength-num">58</span>
+            <small>Second Year</small>
+          </div>
+          <div class="strength-card">
+            <span class="year-label">TY</span>
+            <span class="strength-num">52</span>
+            <small>Third Year</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Staff Cards -->
+      <h3 class="staff-heading">Our Faculty</h3>
+      <div class="staff-grid">
+        <div class="staff-card">
+          <img src="https://placehold.co/160x160/1a3a5c/e8d5b7?text=HoD" alt="Staff" />
+          <h4>Prof. Afazal Ahmed</h4>
+          <p>Head of Department</p>
+        </div>
+        <div class="staff-card">
+          <img src="Pathan-Firoz-Khan.jpg" alt="Staff" />
+          <h4>Firozkhan Salimkhan Pathan</h4>
+          <p>Lecturer</p>
+        </div>
+        <div class="staff-card">
+          <img src="Sayyed-Waliullah.jpg" alt="Staff" />
+          <h4>Sayyed Waliullah</h4>
+          <p>Lecturer</p>
+        </div>
+        <div class="staff-card">
+          <img src="Valvi-Kuldeep.jpg" alt="Staff" />
+          <h4>Mr. Kuldipsing Valvi</h4>
+          <p>Lecturer</p>
+        </div>
+        <div class="staff-card">
+          <img src="https://placehold.co/160x160/1a3a5c/e8d5b7?text=Sk Tayyaba" alt="Staff" />
+          <h4>Ms. Shaikh Tayyaba</h4>
+          <p>Lecturer</p>
+        </div>
+        <div class="staff-card">
+          <img src="https://placehold.co/160x160/2d5986/ffffff?text=Staff+6" alt="Staff" />
+          <h4>Aatar Tahsinulhaque Ab Rashid</h4>
+          <p>Lab Instructor</p>
+        </div>
+        <div class="staff-card">
+          <img src="Patel-Abid.jpg" alt="Staff" />
+          <h4>Mr. Aabid Patel</h4>
+          <p>Lab. Assistant</p>
+        </div>
+        <div class="staff-card">
+          <img src="Patel-Noman.jpg" alt="Staff" />
+          <h4>Patel Noaman Maulvi Ayyub</h4>
+          <p>Technical Assistant</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TECHNICAL COMPETITION ===== -->
+    <section id="technical-competition">
+      <div class="section-header">
+        <span class="section-tag">Annual Tech Fest</span>
+        <h2>Technical Competition</h2>
+        <p class="section-sub">Showcase your skills, compete with peers, and win exciting prizes at our departmental tech event.</p>
+      </div>
+
+      <!-- Competition Cards -->
+      <div class="comp-grid">
+        <div class="comp-card">
+          <div class="comp-icon"><i class="fas fa-bug"></i></div>
+          <h3>Code Debugging</h3>
+          <p>Test your analytical skills by identifying and fixing bugs in programs written in C, Python, and Java. Participants are given code snippets with hidden errors and must resolve them within a time limit.</p>
+          <ul class="comp-details">
+            <li><i class="fas fa-users"></i> Team of 2</li>
+            <li><i class="fas fa-clock"></i> 60 minutes</li>
+            <li><i class="fas fa-trophy"></i> Certificate</li>
+          </ul>
+        </div>
+        <div class="comp-card featured">
+          <div class="comp-icon"><i class="fas fa-code"></i></div>
+          <h3>Web Development</h3>
+          <p>Design and build a fully functional, responsive website on a given theme using HTML, CSS, and JavaScript. Judged on creativity, responsiveness, code quality, and UI/UX design.</p>
+          <ul class="comp-details">
+            <li><i class="fas fa-users"></i> Team of 2</li>
+            <li><i class="fas fa-clock"></i> 2 hours</li>
+            <li><i class="fas fa-trophy"></i> Certificate</li>
+          </ul>
+        </div>
+        <div class="comp-card">
+          <div class="comp-icon"><i class="fas fa-file-word"></i></div>
+          <h3>MS Word Formatting</h3>
+          <p>Demonstrate your proficiency in Microsoft Word by formatting a given document according to specific guidelines. Tasks include tables, styles, headers, mail merge, and advanced formatting.</p>
+          <ul class="comp-details">
+            <li><i class="fas fa-users"></i> Team of 2</li>
+            <li><i class="fas fa-clock"></i> 45 minutes</li>
+            <li><i class="fas fa-trophy"></i> Certificate</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Winners -->
+      <div class="winners-section">
+        <h3 class="winners-heading"><i class="fas fa-trophy"></i> Competition Winners</h3>
+
+        <div class="winners-group">
+          <h4 class="comp-title-label"><i class="fas fa-bug"></i> Code Debugging</h4>
+          <div class="winners-grid">
+            <div class="winner-card gold">
+              <div class="winner-rank">🥇 1st Place</div>
+              <h4>Team Debugger</h4>
+              <p class="members"><i class="fas fa-user-friends"></i> Ritesh Vasave	Yash Vasave</p>
+              <p>Solved all 8 challenges with zero hints in record time of 42 minutes, demonstrating exceptional debugging skills.</p>
+            </div>
+            <!-- <div class="winner-card silver">
+              <div class="winner-rank">🥈 2nd Place</div>
+              <h4>Team DocDesigner</h4>
+              <p class="members"><i class="fas fa-user-friends"></i> Sana Javed, Kamran Baig</p>
+              <p>Cracked 7 out of 8 challenges, displaying strong command of logic and programming fundamentals.</p>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="winners-group">
+          <h4 class="comp-title-label"><i class="fas fa-code"></i> Web Development</h4>
+          <div class="winners-grid">
+            <div class="winner-card gold">
+              <div class="winner-rank">🥇 1st Place</div>
+              <h4>Team WebCraft</h4>
+              <p class="members"><i class="fas fa-user-friends"></i> Md Affan,Sk Ayan Ali</p>
+              <p>Built a stunning, fully responsive portfolio website with smooth animations, earning perfect scores in design and functionality.</p>
+            </div>
+            <!-- <div class="winner-card silver">
+              <div class="winner-rank">🥈 2nd Place</div>
+              <h4>Team PixelPioneers</h4>
+              <p class="members"><i class="fas fa-user-friends"></i> Bilal Ahmed, Hina Rauf</p>
+              <p>Delivered an impressive e-commerce UI with a working cart system and mobile-first design approach.</p>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="winners-group">
+          <h4 class="comp-title-label"><i class="fas fa-file-word"></i> MS Word Formatting</h4>
+          <div class="winners-grid">
+            <div class="winner-card gold">
+              <div class="winner-rank">🥇 1st Place</div>
+              <h4>Team DocDesigner</h4>
+              <h4>Pathan Mubashshira,Shaikh Afifa</h4>
+              <p class="members"><i class="fas fa-user"></i> First year Students only </p>
+              <p>Completed all formatting tasks with 100% accuracy including custom styles with professional Look.</p>
+            </div>
+            <!-- <div class="winner-card silver">
+              <div class="winner-rank">🥈 2nd Place</div>
+              <h4>Faisal Nawaz</h4>
+              <p class="members"><i class="fas fa-user"></i> Individual Entry</p>
+              <p>Produced a perfectly formatted document with advanced table structures and consistent style sheet usage.</p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Student Websites Showcase -->
+      <div class="showcase-section">
+        <h3 class="winners-heading"><i class="fas fa-globe"></i> Student Websites Showcase</h3>
+        <div class="showcase-grid">
+
+          <div class="showcase-card">
+            <div class="showcase-imgs">
+              <img src="https://placehold.co/200x120/1a3a5c/e8d5b7?text=Preview+1" alt="Preview" />
+              <img src="https://placehold.co/200x120/c8a96e/1a3a5c?text=Preview+2" alt="Preview" />
+            </div>
+            <div class="showcase-info">
+              <h4>TechKart</h4>
+              <p>TechKart a simple Shopping site to display Electronic products</p>
+              <a href="https://sayyedwali-jit.github.io/WebCompetitionG01/index.html" class="btn-visit">Visit Website <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="showcase-card">
+            <div class="showcase-imgs">
+              <img src="https://placehold.co/200x120/2d5986/ffffff?text=Preview+1" alt="Preview" />
+              <img src="https://placehold.co/200x120/0f2340/c8a96e?text=Preview+2" alt="Preview" />
+            </div>
+            <div class="showcase-info">
+              <h4>Welcome to Goa Tourism</h4>
+              <p>A Tourism Web page</p>
+              <a href="https://sayyedwali-jit.github.io/WebCompetitionG02/index.html" class="btn-visit">Visit Website <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="showcase-card">
+            <div class="showcase-imgs">
+              <img src="https://placehold.co/200x120/c8a96e/1a3a5c?text=Preview+1" alt="Preview" />
+              <img src="https://placehold.co/200x120/1a3a5c/ffffff?text=Preview+2" alt="Preview" />
+            </div>
+            <div class="showcase-info">
+              <h4>PowerFit</h4>
+              <p>A Gym portal</p>
+              <a href="https://sayyedwali-jit.github.io/WebCompetitionG03/index.html" class="btn-visit">Visit Website <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="showcase-card">
+            <div class="showcase-imgs">
+              <img src="https://placehold.co/200x120/0f2340/e8d5b7?text=Preview+1" alt="Preview" />
+              <img src="https://placehold.co/200x120/2d5986/c8a96e?text=Preview+2" alt="Preview" />
+            </div>
+            <div class="showcase-info">
+              <h4>Ahmed & Sahil portfolio</h4>
+              <p>Personal portfolio</p>
+              <a href="https://sayyedwali-jit.github.io/WebCompetitionG04/index.html" class="btn-visit">Visit Website <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="showcase-card">
+            <div class="showcase-imgs">
+              <img src="https://placehold.co/200x120/1a3a5c/c8a96e?text=Preview+1" alt="Preview" />
+              <img src="https://placehold.co/200x120/c8a96e/ffffff?text=Preview+2" alt="Preview" />
+            </div>
+            <div class="showcase-info">
+              <h4>Spice Heaven</h4>
+              <p>Restaurant web</p>
+              <a href="https://sayyedwali-jit.github.io/WebCompetitionG05/index.html" class="btn-visit">Visit Website <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="showcase-card">
+            <div class="showcase-imgs">
+              <img src="https://placehold.co/200x120/2d5986/e8d5b7?text=Preview+1" alt="Preview" />
+              <img src="https://placehold.co/200x120/1a3a5c/ffffff?text=Preview+2" alt="Preview" />
+            </div>
+            <div class="showcase-info">
+              <h4>Taqdees and Mahefuza</h4>
+              <p>A Personal portfolio  </p>
+              <a href="https://sayyedwali-jit.github.io/WebCompetitionG06/index.html" class="btn-visit">Visit Website <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="showcase-card">
+            <div class="showcase-imgs">
+              <img src="https://placehold.co/200x120/0f2340/c8a96e?text=Preview+1" alt="Preview" />
+              <img src="https://placehold.co/200x120/c8a96e/1a3a5c?text=Preview+2" alt="Preview" />
+            </div>
+            <div class="showcase-info">
+              <h4>Spicy Heaven</h4>
+              <p>Restaurant Portal </p>
+              <a href="https://sayyedwali-jit.github.io/WebCompetitionG08/index.html" class="btn-visit">Visit Website <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="showcase-card">
+            <div class="showcase-imgs">
+              <img src="https://placehold.co/200x120/0f2340/c8a96e?text=Preview+1" alt="Preview" />
+              <img src="https://placehold.co/200x120/c8a96e/1a3a5c?text=Preview+2" alt="Preview" />
+            </div>
+            <div class="showcase-info">
+              <h4>The Departmental Technical Competition  18th February 2026 may download their certificates.</h4>
+              <p>Certificate download Link </p>
+              <a href="https://drive.google.com/file/d/1XhcSeorOefy311gkXSeMOgjGcZqZulKs/view?usp=sharing" class="btn-visit">Participants Certificates <i class="fas fa-arrow-right"></i></a>
+            <br><a href="https://drive.google.com/file/d/1Sqn_ghN_lbqu_dLGeHDuMbwpd4cv9n_i/view?usp=sharing" class="btn-visit" >Winners Certificates <i class="fas fa-arrow-right"></i> </a>
+            
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-icon"><img src="logo.png" alt="College logo"></span>
+        
+         
+        <div>
+          <strong>JIT – Computer Engineering</strong>
+          <small>Jamia Institute of Technology</small>
+        </div>
+      </div>
+      <p class="footer-copy">© 2026 Jamia Institute of Technology.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
