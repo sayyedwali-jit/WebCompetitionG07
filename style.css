@@ -859,6 +859,199 @@ footer {
   color: var(--white);
 }
 
+/*Magazine Begine  */
+/* ===== TECHNICAL MAGAZINE SECTION ===== */
+#technical-magazine {
+  padding: 80px 20px;
+  background: #0f2340;
+}
+
+#technical-magazine .section-header h2 {
+  color: #fff;
+}
+
+#technical-magazine .section-tag {
+  background: #c8a96e;
+  color: #0f2340;
+}
+
+#technical-magazine .section-sub {
+  color: #a0b4cc;
+}
+
+.magazine-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.magazine-card {
+  background: linear-gradient(135deg, #1a3a5c, #1e4570);
+  border: 2px solid #c8a96e;
+  border-radius: 18px;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* Book cover */
+.magazine-cover {
+  flex-shrink: 0;
+  width: 170px;
+  height: 230px;
+  background: linear-gradient(145deg, #c8a96e, #a07840);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 8px 8px 0 #0a1a2e;
+  text-align: center;
+}
+
+.cover-spine {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 12px;
+  background: #a07840;
+  border-radius: 10px 0 0 10px;
+}
+
+.cover-icon {
+  font-size: 32px;
+  color: #0f2340;
+  margin-bottom: 8px;
+}
+
+.cover-title {
+  font-size: 26px;
+  font-weight: 900;
+  color: #0f2340;
+  font-family: 'Playfair Display', Georgia, serif;
+  line-height: 1.1;
+  padding: 0 14px;
+}
+
+.cover-dept {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #0f2340;
+  margin-top: 8px;
+}
+
+.cover-year {
+  background: #0f2340;
+  color: #c8a96e;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+/* Details side */
+.magazine-details {
+  flex: 1;
+}
+
+.edition-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(200, 169, 110, 0.15);
+  border: 1px solid #c8a96e;
+  color: #c8a96e;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 14px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+
+.magazine-details h3 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #e8d5b7;
+  font-family: 'Playfair Display', Georgia, serif;
+  margin-bottom: 14px;
+}
+
+.mag-description {
+  color: #a0b4cc;
+  font-size: 14.5px;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.mag-description strong {
+  color: #e8d5b7;
+}
+
+.mag-features {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 20px;
+  margin: 18px 0 24px;
+}
+
+.mag-features li {
+  color: #e8d5b7;
+  font-size: 13.5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mag-features li i {
+  color: #c8a96e;
+  font-size: 13px;
+}
+
+.mag-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.btn-outline-gold {
+  border: 1.5px solid #c8a96e;
+  color: #c8a96e;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s;
+}
+
+.btn-outline-gold:hover {
+  background: rgba(200, 169, 110, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .magazine-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .mag-features {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+  .mag-actions {
+    justify-content: center;
+  }
+}
+/*Magazine End  */
+
 .footer-logo strong { font-family: 'Playfair Display', serif; font-size: 0.95rem; display: block; }
 .footer-logo small { font-size: 0.65rem; color: var(--gold-lt); }
 
